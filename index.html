@@ -16,8 +16,6 @@
         <Section id="TodaysHabits">
             <h2>Today's Habits</h2>
 
-            <!--checkbox list-->
-
             <div id="listHabits">
                 <input type="checkbox" name="hbt1" id="hbt1">
                 <label for="hbt1">Drink Water</label><br>
@@ -29,11 +27,11 @@
                 <label for="hbt4">Meditate</label>
             </div>
 
-            <div>
-                <img src="assets/perfil.jpg" alt="image profile" width="50px">
-                <!--loading progress bar-->
+            <div class="container">
+                <img src="assets/perfil.jpg" alt="image profile" width="60px">
+                <progress id="ProgressBar" value="65" max="100">30%</progress>
                 <p>Points</p>
-                <p>120 points</p>
+                <p id="TotPoints">120 points</p>
             </div>
         </Section>
 
@@ -41,9 +39,9 @@
             <h2>Leaderboard</h2>
             <!--Rank here-->
             <div id="listLeader">
-                <p>1 Alice</p>
-                <p>2 Bob</p>
-                <p>3 Charlie</p>
+                <p>1° Alice</p>
+                <p>2° Bob</p>
+                <p>3° Charlie</p>
             </div>
         </Section>
         

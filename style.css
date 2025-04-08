@@ -13,15 +13,39 @@ body {
 
 #TodaysHabits, #leaderboard {
     background-color: #fcfcfc;
-    padding: 10px;
+    padding: 15px;
     margin-top: 20px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #listHabits {
-    margin: 20px 0px; 
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+progress {
+    border-radius: 15px; 
+    width: 80%;
+    height: 30px;
+}
+progress::-webkit-progress-bar {
+    background-color: #e9eaf2;
+    border-radius: 15px;
+}
+progress::-webkit-progress-value {
+    background-color: #9582ff;
+    border-radius: 15px;
 }
 
 #listLeader {
     margin-top: 20px;
+    font-size: 20px;
 }
