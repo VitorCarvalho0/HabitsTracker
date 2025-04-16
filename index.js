@@ -8,12 +8,3 @@ function openMenu() {
     menuProfile.hidden = !menuProfile.hidden;
 }
 
-
-/*
-function openMenu() {
-    if menuProfile == 'Hidden' {
-        menuProfile = innerHTML = '<div id="menuProfile">'
-    }
-}
-
-*/
