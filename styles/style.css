@@ -19,45 +19,34 @@ main {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.200);
 }
 
-header {
+header, #TodaysHabits_menu {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-/*#menuProfile {
-    background-color: #9582ff;
-    width: 140px;
-    border-radius: 10px;
-    padding: 5px;
-    text-align: center;
-    position: fixed;
-    margin-top: 20px;
-    right: 50px;
-}*/
-
-#menuProfile {
-    position: absolute;
-    top: 60px; /* ajusta conforme sua imagem */
-    right: 50px;
-    width: 130px;
-    background-color: #e9eaf2;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-#menuProfile > a {
+#menuProfile > a, #menuHabits > a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
 }
 
-#TodaysHabits_Menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.profile-container, .TodaysHabits_Menu {
+    position: relative;
+    display: inline-block;
+}
+
+#menuProfile, #menuHabits {
+    position: absolute;
+    width: 130px;
+    top: 100%;
+    right: 0; 
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
 }
 
 .material-symbols-outlined {
@@ -66,7 +55,6 @@ header {
     'wght' 900,
     'GRAD' 0,
     'opsz' 24
-
 }
 
 #TodaysHabits, #leaderboard {
@@ -93,7 +81,7 @@ header {
 progress {
     border-radius: 15px; 
     width: 80%;
-    height: 30px;
+    height: 25px;
 }
 progress::-webkit-progress-bar {
     background-color: #e9eaf2;

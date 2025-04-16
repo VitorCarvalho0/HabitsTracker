@@ -16,19 +16,29 @@
 
         <header>
             <h1>Habit Tracker</h1>
-            <img id="photoId" src="assets/perfil.jpg" alt="link perfil" width="40px" onclick="openMenu()">
-            <div id="menuProfile" hidden>
-                <a href="#">Edit Profile</a>
-                <a href="#">Dark Mode</a>
+            <div class="profile-container">
+                <img id="photoId" src="assets/perfil.jpg" alt="link perfil" width="40px" onclick="openMenu()">
+                <div id="menuProfile" hidden>
+                    <a href="#">Edit Profile</a>
+                    <a href="#">Dark Mode</a>
+                </div>
             </div>
         </header>
         
+        
         <Section id="TodaysHabits">
-            
-            <div id="TodaysHabits_Menu">
+
+            <div id="TodaysHabits_menu">
                 <h2>Today's Habits</h2>
-                <span class="material-symbols-outlined">menu</span>
+            <div class="TodaysHabits_Menu">
+                <span class="material-symbols-outlined" onclick="openMenuHabits()">menu</span>
+                <div id="menuHabits" hidden>
+                    <a href="#">Add Habits</a>
+                    <a href="#">Del Habits</a>
+                </div>
             </div>
+            </div>
+            
 
             <div id="listHabits">
                 <input type="checkbox" name="hbt1" id="hbt1">
