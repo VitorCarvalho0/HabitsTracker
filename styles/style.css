@@ -25,6 +25,35 @@ header {
     margin-bottom: 50px;
 }
 
+/*#menuProfile {
+    background-color: #9582ff;
+    width: 140px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    margin-top: 20px;
+    right: 50px;
+}*/
+
+#menuProfile {
+    position: absolute;
+    top: 60px; /* ajusta conforme sua imagem */
+    right: 50px;
+    width: 130px;
+    background-color: #e9eaf2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#menuProfile > a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 #TodaysHabits_Menu {
     display: flex;
     justify-content: space-between;
@@ -79,3 +108,4 @@ progress::-webkit-progress-value {
     margin-top: 20px;
     font-size: 20px;
 }
+
