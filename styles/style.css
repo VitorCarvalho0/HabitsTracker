@@ -25,7 +25,7 @@ header, #TodaysHabits_menu {
     margin-bottom: 50px;
 }
 
-#menuProfile > a, #menuHabits > a {
+#menuHabits > a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
@@ -36,23 +36,10 @@ header, #TodaysHabits_menu {
     display: inline-block;
 }
 
-#menuProfile {
-    position: absolute;
-    width: 80vw;
-    height: 41vh;
-    top: 100%;
-    right: 0; 
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.200);
-    z-index: 10;
-}
-
 #menuHabits {
     position: absolute;
-    width: 130px;
+    width: 280px;
+    height: 220px;
     top: 100%;
     right: 0; 
     background-color: white;
