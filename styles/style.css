@@ -31,31 +31,23 @@ header, #TodaysHabits_menu {
     font-weight: 700;
 }
 
-.profile-container, .TodaysHabits_Menu {
-    position: relative;
-    display: inline-block;
+#txth {
+    width: 60vw;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
 }
 
-#menuHabits {
-    position: absolute;
-    width: 280px;
-    height: 220px;
-    top: 100%;
-    right: 0; 
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.200);
-    z-index: 10;
-}
-
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 900,
-    'GRAD' 0,
-    'opsz' 24
+#btnAdd {
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    background-color: #9582ff;
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    padding: 6px;
 }
 
 #TodaysHabits, #leaderboard {

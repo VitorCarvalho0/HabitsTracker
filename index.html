@@ -10,46 +10,35 @@
     
     <script src="index.js" defer></script>
 </head>
-<body>  <!--To do: responsive -->
+<body>
 
     <main>
 
         <header>
             <h1>Habit Tracker</h1>
-            <div class="profile-container">
-                <img id="photoId" src="assets/perfil.jpg" alt="link perfil" width="50px">
+            <div>
+                <img id="photoId" src="assets/perfil.jpg" alt="image profile" width="50px">
             </div>
         </header>
-        
         
         <Section id="TodaysHabits">
 
             <div id="TodaysHabits_menu">
                 <h2>Today's Habits</h2>
-                <div class="TodaysHabits_Menu">
-                    <span class="material-symbols-outlined" onclick="openMenu()">menu</span>
-                    <div id="menuHabits" hidden>
-                        listas de hábitos aqui <br>
-                        Excluir e Adicionar
-                    </div>
-                </div>
+            </div>
+
+            <div id="habitForm">
+                <input type="text" name="txth" id="txth">
+                <input type="button" value="+" id="btnAdd" width="50px">
             </div>
             
-
             <div id="listHabits">
-                <input type="checkbox" name="hbt1" id="hbt1">
-                <label for="hbt1">Drink Water</label><br>
-                <input type="checkbox" name="hbt2" id="hbt">
-                <label for="hbt2">Exercise</label><br>
-                <input type="checkbox" name="hbt3" id="hbt3">
-                <label for="hbt3">Read</label><br>
-                <input type="checkbox" name="hbt4" id="hbt4">
-                <label for="hbt4">Meditate</label>
+                <!-- Lista de hábitos vai aqui -->
             </div>
 
             <div class="container">
                 <img src="assets/perfil.jpg" alt="image profile" width="60px">
-                <progress id="ProgressBar" value="65" max="100">30%</progress>
+                <progress id="ProgressBar" value="0" max="100"></progress>
                 <p>Points</p>
                 <p id="TotPoints">120 points</p>
             </div>
