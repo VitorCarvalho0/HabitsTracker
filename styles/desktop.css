@@ -10,3 +10,11 @@ body {
     max-width: 950px;
     margin: 5% auto;
 }
+
+#txth {
+    width: 45vw;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
+}
